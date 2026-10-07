@@ -7,14 +7,15 @@
     <style>
         html, body {
             margin: 0; padding: 0; width: 100%; height: 100%;
-            background-color: #000000; overflow: hidden;
-        }
-        iframe {
-            border: none; width: 100%; height: 100%;
+            background-color: #000000; display: flex; 
+            justify-content: center; align-items: center;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://youtube.com" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <script>
+        // Esse script engana os bloqueios e joga o app direto para a versão limpa do YouTube nativo
+        window.location.replace("https://m.youtube.com/");
+    </script>
 </body>
 </html>
